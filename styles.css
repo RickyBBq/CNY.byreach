@@ -1,91 +1,64 @@
 /* General styling for the page */
 body {
-  background-color: #D32F2F; /* Red background for celebration */
-  font-family: 'Noto Serif', serif; /* Elegant font with a Chinese vibe */
-  text-align: center;
-  padding: 20px;
+  font-family: 'Noto Serif', serif;
+  background-color: #FFF8DC; /* Light yellow */
   margin: 0;
-  color: #FFF5EE; /* Light color for text contrast */
+  padding: 0;
 }
 
-/* Container box styling */
+/* Container styling */
 .container {
-  max-width: 600px;
+  max-width: 800px;
   margin: 50px auto;
-  background: linear-gradient(to bottom, #FFD700, #FF6347); /* Gold to vibrant red gradient */
+  text-align: center;
+  background: linear-gradient(to bottom, #FFD700, #FF6347); /* Gold to red */
   padding: 30px;
   border-radius: 15px;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
 }
 
 /* Header styling */
 h1 {
-  color: #B22222; /* Deep red for elegance */
-  font-size: 2.5em;
+  color: #B22222; /* Deep red */
+  font-size: 2.8em;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px #FFD700; /* Gold shadow */
 }
 
-/* Paragraph styling */
-p {
-  font-size: 1.2em;
-  margin: 10px 0 20px;
-}
-
-/* Buttons styling */
+/* Button styling */
 .button {
-  background-color: #8B0000; /* Dark red for vibrance */
+  background-color: #8B0000; /* Dark red */
   color: white;
   border: none;
   padding: 15px 30px;
   font-size: 18px;
-  font-family: 'Noto Serif', serif;
-  border-radius: 8px;
+  border-radius: 10px;
   cursor: pointer;
   transition: 0.3s ease;
+  margin-top: 20px;
 }
 
-/* Hover effect for buttons */
 .button:hover {
-  background-color: #B22222; /* Lighter red */
+  background-color: #B22222; /* Bright red */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* Styling for the wish text */
 .wish {
-  font-size: 1.5em;
-  font-weight: bold;
-  color: #800000; /* Maroon for contrast */
-  margin-top: 20px;
-  line-height: 1.5;
-}
-
-/* Next button styling */
-.next-button {
-  display: none; /* Initially hidden */
-  margin-top: 20px;
-  background-color: #FFA500; /* Bright orange */
-  border: 2px solid #FF4500; /* Vibrant red border */
-}
-
-/* Footer or decorations */
-footer {
   margin-top: 30px;
-  font-size: 0.9em;
-  color: #FFFACD; /* Pale yellow */
+  font-size: 1.5em;
+  color: #B22222; /* Deep red */
+  font-weight: bold;
+  text-shadow: 1px 1px #FFD700;
 }
 
-/* Adding background decoration */
-body:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: url('https://i.imgur.com/Z2KUC2v.png') no-repeat center center/cover; /* Festive Chinese New Year background */
-  opacity: 0.2;
-  z-index: -1;
+/* Footer styling */
+footer {
+  margin-top: 50px;
+  font-size: 0.9em;
+  color: #FFFACD; /* Light gold */
+  text-align: center;
 }
 /* General container styling */
 .container {
