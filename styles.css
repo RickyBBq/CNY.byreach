@@ -3,7 +3,7 @@ body {
   font-family: 'Noto Serif', serif;
   margin: 0;
   padding: 0;
-  background-image: url('583eb27d338824d52fd506b32e8fa1a6.webp'); /* Background image */
+  background-image: url('https://i.ibb.co/6RL3j1F/583eb27d338824d52fd506b32e8fa1a6.webp'); /* Background image */
   background-size: cover; /* Ensures the image covers the entire page */
   background-position: center center; /* Centers the background image */
   background-attachment: fixed; /* Keeps the background fixed during scrolling */
