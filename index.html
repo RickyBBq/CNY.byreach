@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload Your Image</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to CSS -->
+</head>
+<body>
+  <div class="container">
+    <h1>Upload Your Image</h1>
+    <p>Celebrate Chinese New Year by sharing your favorite image!</p>
+
+    <!-- Image upload form -->
+    <form action="#" method="post" enctype="multipart/form-data" id="uploadForm">
+      <label for="imageUpload" class="button">Choose an Image</label>
+      <input type="file" id="imageUpload" name="image" accept="image/*" style="display: none;" onchange="previewImage(event)">
+      <br><br>
+    </form>
+
+    <!-- Image preview with frame -->
+    <div class="image-frame" id="imageFrame">
+      <img id="preview" src="#" alt="Your Image" style="display: none;">
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Chinese New Year Celebration | Wishing you happiness and prosperity!
+  </footer>
+
+  <script>
+    function previewImage(event) {
+      const preview = document.getElementById('preview');
+      const imageFrame = document.getElementById('imageFrame');
+      preview.src = URL.createObjectURL(event.target.files[0]);
+      preview.style.display = 'block';
+      imageFrame.style.display = 'block';
+    }
+  </script>
+</body>
+</html>
