@@ -87,7 +87,7 @@ body:before {
   opacity: 0.2;
   z-index: -1;
 }
-/* Center the container */
+/* General container styling */
 .container {
   max-width: 800px;
   margin: 50px auto;
@@ -98,25 +98,40 @@ body:before {
   text-align: center;
 }
 
-/* Style the image frame */
+/* Image frame styling */
 .image-frame {
   margin: 20px auto;
   padding: 15px;
-  background: #FFD700; /* Gold for Chinese New Year theme */
-  border: 5px solid #B22222; /* Deep red frame border */
+  background: #FFD700; /* Gold background */
+  border: 5px solid #B22222; /* Deep red border */
   border-radius: 15px;
-  display: none; /* Hidden until an image is uploaded */
-  max-width: 90%; /* Adjust frame width */
-  text-align: center;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
 
-/* Style the previewed image */
-#preview {
-  max-width: 100%; /* Scale the image */
-  border-radius: 10px; /* Slightly rounded corners */
-  display: block;
-  margin: auto;
+#bigImage {
+  max-width: 100%; /* Ensure the image scales well */
+  border-radius: 10px;
+}
+
+/* Payment info section */
+.payment-info {
+  margin-top: 20px;
+  background-color: #FFF8DC; /* Light yellow background for contrast */
+  padding: 15px;
+  border: 2px solid #B22222; /* Red border */
+  border-radius: 10px;
+  font-size: 1.2em;
+  color: #8B0000; /* Deep red text */
+  line-height: 1.5;
+}
+
+.payment-info a {
+  color: #B22222; /* Link color */
+  text-decoration: none;
+}
+
+.payment-info a:hover {
+  text-decoration: underline;
 }
 
 /* Header styling */
@@ -127,22 +142,8 @@ h1 {
   margin-bottom: 10px;
 }
 
-/* Buttons styling */
-.button {
-  background-color: #8B0000;
-  color: white;
-  border: none;
-  padding: 15px 30px;
-  font-size: 18px;
-  font-family: 'Noto Serif', serif;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: 0.3s ease;
-}
-
-.button:hover {
-  background-color: #B22222;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+p {
+  font-size: 1.2em;
 }
 
 /* Footer styling */
