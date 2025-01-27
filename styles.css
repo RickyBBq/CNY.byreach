@@ -87,3 +87,67 @@ body:before {
   opacity: 0.2;
   z-index: -1;
 }
+/* Center the container */
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background: linear-gradient(to bottom, #FFD700, #FF6347);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+/* Style the image frame */
+.image-frame {
+  margin: 20px auto;
+  padding: 15px;
+  background: #FFD700; /* Gold for Chinese New Year theme */
+  border: 5px solid #B22222; /* Deep red frame border */
+  border-radius: 15px;
+  display: none; /* Hidden until an image is uploaded */
+  max-width: 90%; /* Adjust frame width */
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Style the previewed image */
+#preview {
+  max-width: 100%; /* Scale the image */
+  border-radius: 10px; /* Slightly rounded corners */
+  display: block;
+  margin: auto;
+}
+
+/* Header styling */
+h1 {
+  color: #B22222;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Buttons styling */
+.button {
+  background-color: #8B0000;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-family: 'Noto Serif', serif;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.button:hover {
+  background-color: #B22222;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer styling */
+footer {
+  margin-top: 30px;
+  font-size: 0.9em;
+  color: #FFFACD;
+}
