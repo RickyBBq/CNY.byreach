@@ -1,20 +1,23 @@
-/* General styling for the page */
+/* General body styling */
 body {
   font-family: 'Noto Serif', serif;
-  background-color: #FFF8DC; /* Light yellow */
   margin: 0;
   padding: 0;
+  background-image: url('https://i.ibb.co/NxCKWF9/583eb27d338824d52fd506b32e8fa1a6.jpg'); /* Background image */
+  background-size: cover; /* Ensures the image covers the entire page */
+  background-position: center center; /* Centers the background image */
+  background-attachment: fixed; /* Keeps the background fixed during scrolling */
 }
 
-/* Container styling */
+/* General container styling */
 .container {
   max-width: 800px;
   margin: 50px auto;
-  text-align: center;
-  background: linear-gradient(to bottom, #FFD700, #FF6347); /* Gold to red */
   padding: 30px;
   border-radius: 15px;
+  background: rgba(255, 255, 255, 0.8); /* White with opacity to make content stand out */
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
 }
 
 /* Header styling */
@@ -44,11 +47,11 @@ h1 {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Styling for the wish text */
+/* Wish styling */
 .wish {
   margin-top: 30px;
   font-size: 1.5em;
-  color: #B22222; /* Deep red */
+  color: #B22222;
   font-weight: bold;
   text-shadow: 1px 1px #FFD700;
 }
@@ -57,7 +60,7 @@ h1 {
 footer {
   margin-top: 50px;
   font-size: 0.9em;
-  color: #FFFACD; /* Light gold */
+  color: #FFFACD;
   text-align: center;
 }
 /* General container styling */
